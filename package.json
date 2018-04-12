@@ -1,7 +1,7 @@
 {
   "name": "steam-market-observer",
   "version": "0.1.0",
-  "description": "",
+  "description": "Tool for maintaining Steam Market listings database.",
   "main": "./dist/index.js",
   "author": "BronzeBee",
   "license": "MIT",
@@ -20,10 +20,10 @@
     "node": ">= 6.0.0"
   },
   "dependencies": {
-    "winston": "^2.4.1",
-    "node-fetch": "^2.1.2",
     "mongodb": "^3.0.6",
-    "node-throttled-queue": "git://github.com/BronzeBee/node-throttled-queue.git"
+    "node-fetch": "^2.1.2",
+    "node-throttled-queue": "git://github.com/BronzeBee/node-throttled-queue.git",
+    "winston": "^2.4.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
